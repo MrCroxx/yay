@@ -1,7 +1,12 @@
 [package]
 name = "yay"
-version = "0.1.0"
+version = "0.0.0"
 edition = "2021"
+authors = ["MrCroxx <mrcroxx@outlook.com>"]
+description = "Yet another YCSB workload generator in Rust."
+license = "MIT"
+repository = "https://github.com/mrcroxx/yay"
+homepage = "https://github.com/mrcroxx/yay"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
