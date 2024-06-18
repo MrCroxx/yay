@@ -96,7 +96,7 @@ jobs:
       - name: Install cargo tools
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          cargo install cargo-sort
+          cargo install cargo-sort --locked
       - name: Run rust cargo-sort check
         run: |
           cargo sort -w -c
