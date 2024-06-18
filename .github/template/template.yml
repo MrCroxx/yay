@@ -55,7 +55,7 @@ jobs:
       - name: Install cargo-udeps
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          cargo install -y cargo-udeps --locked
+          cargo install cargo-udeps --locked
       - name: Unused Dependencies Check
         env:
           RUSTFLAGS: "--cfg tokio_unstable -Awarnings"
@@ -90,7 +90,7 @@ jobs:
       - name: Install cargo tools
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          cargo install -y cargo-sort
+          cargo install cargo-sort
       - name: Run rust cargo-sort check
         run: |
           cargo sort -w -c
