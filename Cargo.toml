@@ -10,3 +10,12 @@ homepage = "https://github.com/mrcroxx/yay"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+ahash = "0.8"
+anyhow = "1"
+bytes = "1"
+itertools = "0.13"
+parking_lot = "0.12"
+paste = "1"
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
+tracing = "0.1"

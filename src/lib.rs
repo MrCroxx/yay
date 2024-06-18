@@ -12,7 +12,15 @@
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
 
-#[test]
-fn test() {
-    println!("Hello world!");
-}
+//! yay - Yet Another YCSB workload generator in Rust.
+
+#![warn(missing_docs)]
+
+/// Database traits.
+pub mod db;
+/// Generators and counters.
+pub mod generator;
+/// Utilities.
+pub mod utils;
+/// Benchmark wordloads.
+pub mod workload;
