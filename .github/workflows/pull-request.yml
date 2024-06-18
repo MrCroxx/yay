@@ -111,6 +111,7 @@ jobs:
         run: |
           cargo fmt --all -- --check
       - name: Run rust clippy check
+        if: matrix.rust_toolchain == 'stable'
         run: |
           cargo clippy --all-targets -- -D warnings
       - if: steps.cache.outputs.cache-hit != 'true'
