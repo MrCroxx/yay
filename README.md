@@ -6,7 +6,7 @@
 
 Currently, *yay* is still under development.
 
-The development state and the roadmap can be found [here](https://github.com/users/MrCroxx/projects/4).
+The development state and the roadmap can be found [here](https://github.com/users/MrCroxx/projects/5).
 
 ## Contributing
 
